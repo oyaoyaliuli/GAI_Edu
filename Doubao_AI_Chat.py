@@ -11,9 +11,9 @@ user_name = ""
 user_API = ""
 user_Num = ""
 ''''
-doubao-seed-1-6-lite-251015   0.3,0.6
-doubao-seed-1-6-251015  0.4,1
-doubao-seed-1-6-flash-250828   0.075，0.75   
+doubao-seed-1-6-lite-251015   
+doubao-seed-1-6-251015 
+doubao-seed-1-6-flash-250828  
 
 '''
 
@@ -102,4 +102,5 @@ while True:
         print("\r" + " " * len(thinking_indicator) + "\r", end='', flush=True)
         print(f"\n发生错误: {e}\n")
         # 出错时移除最后一条用户消息
+
         conversation_history.pop()
